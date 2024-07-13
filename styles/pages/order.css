@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, Arial;
+    color: rgb(33, 33, 33);
+    margin: 0;
+}
+
+
+.main {
+    max-width: 850px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.order-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Order-header-infor {
+    background-color: rgb(240, 242, 242);
+    border: 1px solid rgb(213, 217, 217);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.order-title {
+    color: rgb(0, 118, 0);
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.order-details-grid {
+    padding: 40px 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 60px;
+    align-items: center;
+}
+
+.user-label {
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid rgb(200, 200, 200);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.Submit-order {
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.Submit-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(33, 33, 33);
+    background-color: rgb(255, 216, 20);
+    border: 1px solid rgb(252, 210, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
